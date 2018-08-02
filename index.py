@@ -11,10 +11,12 @@ sys.setdefaultencoding('utf-8')
 
 
 def main(wf):
+    # 获取需要查询的内容
     query = wf.args[0]
 
     str = ' '.join([item[0] for item in pinyin(query)])
 
+    # Script Filter 返回的 List
     wf.add_item(title=str)
     wf.send_feedback()
     
