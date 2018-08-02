@@ -23,3 +23,5 @@ sys.setdefaultencoding('utf-8')
 ```
 
 另外，我将该 workflow 的 Bundle Id 设置为 `https://github.com/hanzichi/hanzi2pinyin`，但是报莫名错误，后来改短了就好了，但是我之前的 [CDNSearcher](https://github.com/hanzichi/CDNSearcher) 用的也是类似的命名方式却没问题，有点奇怪
+
+在另一个 workflow 制作中，我需要接收多个参数，这也好办，将接收到的 **一个** 参数用空格分离就可以得到多个参数
